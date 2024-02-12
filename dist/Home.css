@@ -1,0 +1,202 @@
+body{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+  user-select: none;
+  
+}
+
+
+.Heart {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 58
+  
+   
+  
+}
+
+ul>button{
+ font-size: 20px;
+}
+
+
+
+  
+
+  .Star{
+    font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 58
+}
+  
+  
+#purchased{
+  
+   display: none;
+   
+}
+
+
+
+.Colors::-webkit-scrollbar {
+    display: none;
+    
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Colors {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  text-decoration: underline;
+}
+
+.Size::-webkit-scrollbar {
+    display: none;
+}
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.categories>button{
+  text-decoration:underline;
+  
+ } 
+
+
+/* Hide scrollbar */
+.Size {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  text-decoration: underline;
+  
+  
+}
+
+
+
+  a{
+  transition: 200ms ease-in-out;
+  transform: translateX(2px);
+  
+  
+  
+}
+
+
+
+.footer{
+  width: 100%;
+}
+
+.Buy:hover{
+  transition: 200ms ease-in-out;
+}
+
+
+.prod{
+  transition: 200ms ease-in-out;
+}
+
+
+
+
+
+nav{
+  transition: 500ms ease-in-out ;
+ 
+}
+
+.picc{
+  background-image: url('Images/snk/tt/pexels-jordan-hyde-1070360.jpg');
+  
+  height: 600px;
+  
+  
+}
+span{
+  transition: 200ms ease-in-out;
+  
+}
+
+
+
+
+
+.slider::-webkit-scrollbar {
+
+  display: none;
+  
+}
+.slider{
+  scroll-behavior: smooth;
+  
+}
+
+.filled{
+
+  font-variation-settings: 
+  'FILL' 2,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 58
+ 
+}
+
+body::-webkit-scrollbar {
+  width: 12px;      
+  
+  background-color: transparent;    
+}
+
+body::-webkit-scrollbar-track {
+  background: slategray;   
+       
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #67dbc2;    
+  border-radius: 20px;       
+  border: 2px solid slategrey;  
+}
+button{
+  transition: 200ms ease-in-out;
+}
+ nav{
+  transform: translatey(-1px);
+ }
+
+
+
+.done{
+  font-size: 35px!important;
+
+}
+
+
+
+
+span{
+  cursor: pointer;
+}
+
+#mySize>ul>li>button{
+
+  categories-size-btn
+}
+
+.selected{
+  color:green !important;
+}
+
+li>button:hover{
+  color:green;
+}
